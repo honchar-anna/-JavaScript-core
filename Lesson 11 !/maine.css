@@ -1,0 +1,6 @@
+.block-timeout,.blockI{
+   width: 100px;
+   min-height: 50px;
+   border:1px solid black;
+   margin: 10px 0 ;
+}

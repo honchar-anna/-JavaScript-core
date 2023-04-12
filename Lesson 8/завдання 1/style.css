@@ -1,0 +1,33 @@
+*{
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+}
+form{
+   width: 500px;
+   margin:10px auto;
+   
+}
+.text1, .text2{
+   width: 160px;
+   height: 20px;
+   border-radius: 2px;
+   border: 1px solid grey;
+   outline: none;
+  
+}
+.buttons{
+   width: 150px;
+   border: 0.5px solid rgba(193, 193, 193, 0.427);
+   background-color: #25ae3a;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+}
+.text3{
+   width: 95%;
+   border-radius: 2px;
+   border: 1px solid grey;
+   outline: none;
+}

@@ -1,0 +1,157 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+   background: #757f9a; 
+  background: linear-gradient(to bottom, #757f9a, #d7dde8);
+}
+.container{
+   width: 70%;
+   margin: 0 auto;
+}
+.block{
+   min-height: 300px;
+   margin: 20px 0;
+   padding: 20px 35px;
+   line-height: 40px;
+   border-radius: 5px;
+   background-color: rgb(230, 230, 230);
+   border: 1px solid rgba(0, 0, 0, 0.098);
+   position: relative;
+}
+.center-block{
+   display: flex;
+   justify-content: center;
+ 
+}
+.btn-edit, .btn-style,.btn-add,.btn-save{
+   width: 40px;
+   height: 30px;
+   background-color: rgb(255, 200, 0);
+   border-radius: 5px;
+   border:none ;
+margin-right: 10px;
+}
+.btn-style{
+   color: white;
+   background-color: rgb(154, 45, 249);
+}
+.btn-add{
+   color: white;
+   background-color: rgb(247, 68, 68);
+}
+.btn-save{
+   color: white;
+   background-color: rgb(38, 135, 33);
+}
+
+.edit-block, .style-block{
+   display: none;
+}
+
+.edit-area{
+   width: 100%;
+   height: 100px;
+   border: 1px solid rgba(128, 128, 128, 0.364);
+   outline: none;
+}
+.edit-area:focus,#fontFamily:focus,.input-text:focus,.choose:focus{
+   box-shadow: 0 0 3px 4px #a0c4e8;
+   outline: none;
+}
+
+h2{
+   font-size: 20px;
+   font-weight: lighter;
+   margin-bottom: -10px;
+   margin-top: -5px;
+}
+span{
+   margin-right: 10px;
+}
+.choose,.btn-text-color,.btn-bg-color,.btn-create-table,.btn-create-list{
+   width: 200px;
+   height: 30px;
+   border-radius: 5px;
+   border: 1px solid rgba(128, 128, 128, 0.364);
+   outline: none;
+   font-size: medium;
+
+}
+.btn-text-color,.btn-bg-color{
+   width: 150px;
+   height: 30px;
+   border-radius: 5px;
+   background-color: gray;
+   color: white;
+}
+.btn-text-color:focus,.btn-bg-color:focus{
+   box-shadow: 0 0 3px 4px #b7b7b7;
+   outline: none; 
+}
+
+.colors-text,.colors-bg{
+   width: 240px;
+   height: 240px;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+.color-box{
+   width: 80px;
+   height: 80px;
+
+}
+
+.block-choose{
+   height: 400px;
+}
+.input-text{
+   width: 60%;
+   height: 30px;
+ padding-left: 10px;
+ border-radius: 5px;
+   border: 1px solid rgba(128, 128, 128, 0.364);
+  
+   outline: none;
+}
+input::placeholder {
+   opacity: .5;
+   color: rgb(73, 73, 73);
+}
+.input-s{
+   width: 18%;
+}
+.btn-create-table,.btn-create-list{
+   border-radius: 5px;
+   color: white;
+background-color: green;
+}
+
+
+
+.none {
+   display: none;
+}
+.bold{
+   font-weight: bold;
+   border: 1px solid black;
+}
+.cursive{
+   font-style: italic;
+}
+.second, .first{
+   display: none;
+}
+.hide{
+   display: none;
+}
+.show{
+   display: block;
+}

@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: blanchedalmond;
+}
+.img{
+   width: 500px;
+
+}
+h2{
+  font-size: 30px;
+}
+h1{
+   font-size: 50px;
+ }
+.box , .or{
+   width: 341px;
+   height: 660px;
+   background-color: rgb(69, 43, 110);
+   color: rgb(72, 252, 255);
+   margin-top: -860px;
+   margin-left: 74px;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+    align-items: center;
+}
+.black{
+   width:341px;
+   height: 0;
+   margin-top: -666px;
+   margin-left: 74px;
+   background-color: rgb(118, 100, 144);
+   transition: 60s;
+}
